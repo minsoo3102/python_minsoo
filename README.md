@@ -194,3 +194,11 @@ print("고마워요" not in txt)
 if 명령문을 통해 활용 가능
 
 txt = "안녕하세요, 반갑습니다"
+
+-----------------------
+
+numbers = [111, 26, 37, 48]
+
+result = list(filter(lambda x: x % 2 == 0, numbers))
+print(result)
+
